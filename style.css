@@ -1,0 +1,198 @@
+nav{
+    display: flex;
+    justify-content: center;
+  }
+.top{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    flex: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a{
+    color: inherit;
+    text-decoration: #A19AD1;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+  }
+  .current{
+    color: #A19AD1;
+  }
+  .resume{
+    color: #A19AD1;
+    display: inline;
+  }
+  a:hover{
+      color: #A19AD1;
+    }
+  hr:nth-of-type(1){
+    border: 1px solid #A19AD1;
+  }
+  hr:nth-of-type(2){
+    border: 1px solid #f0efef;
+  }
+  hr:nth-of-type(3){
+    border: 1px solid #f0efef;
+    margin-top: 90vh;
+  }
+  
+  img {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .footer{
+    text-align: center;
+  }
+  
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  p{
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+  
+  h1{
+    padding:20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .points{
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .skill{
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+  
+  progress{
+    margin-left: 20px;
+    width: 45vw;
+    max-width: 500px;
+  }
+  table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+  }
+  
+  .position{
+    font-size: 16px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .title{
+    font-size: 20px;
+  }
+  
+  .location{
+    font-size: 16px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .degree{
+    font-size: 20px;
+  }
+  .separate{
+    padding-top: 20px;
+  }
+  .info{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+    width: 50vw;
+  }
+  .credits{
+      padding-top: 60px;
+      color: gray;
+  }
+  .item{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 2;
+  }
+  .subscript{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+  }
+  .email{
+    color: #A19AD1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    line-height: 2;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+  @media only screen and (max-width: 768px){
+    .link{
+      font-size: 1.25em;
+    }
+    .col-5{
+      border-bottom: 1px solid #f0efef;
+    }
+    progress{
+      width: 90vw;
+      max-width: 700px;
+    }
+    .info{
+      width: 90vw;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.5%;
+      border-right: 1px solid #f0efef;
+      height: 85vh;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;
+    height: 85vh;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .picture {
+    float: right;
+    border-radius: 50%;
+    }
+    figure{
+      float: right;
+      vertical-align: top;
+      text-align: center;
+    }
+  }
